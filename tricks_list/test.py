@@ -122,3 +122,4 @@ print(head([1,2,3]))
 
 from tricks_list.initial import initial
 print(initial([1,2,3,4]))
+print("hello world")
