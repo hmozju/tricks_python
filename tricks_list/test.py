@@ -124,3 +124,6 @@ from tricks_list.initial import initial
 print(initial([1,2,3,4]))
 print("hello world")
 #test
+
+from tricks_list.initialize_2d_list import  initialize_2d_list
+print(initialize_2d_list(3,2,6))
