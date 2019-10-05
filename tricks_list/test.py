@@ -44,6 +44,7 @@ print(compact(a))
 
 # from package.module import function & use: function
 # import package.module & use: package.module.function
+# from package import module & use: module.function
 
 import tricks_list.chunk
 a = [1,2,3,4,5,6,7]
@@ -116,8 +117,8 @@ b = [1,2,3,4,5,6,7]
 print(has_duplicates(a))
 print(has_duplicates(b))
 
-from tricks_list.head import head
-print(head([1,2,3]))
+from tricks_list import head
+print(head.head([1,2,3]))
 
 
 from tricks_list.initial import initial
